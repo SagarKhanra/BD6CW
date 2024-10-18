@@ -1,6 +1,6 @@
 const cors = require("cors");
 const express = require("express");
-const { getAllEmployees, getEmployeeById } = require("./controllers");
+const { getAllEmployees, getEmployeesById } = require("./controllers");
 
 const app = express();
 
