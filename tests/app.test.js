@@ -86,7 +86,7 @@ describe('Controller Function tests', () => {
       expect(res.body.employees.length).toBe(3);
     });
 
-    it('GET /employees/details/:id should get an employee by ID', async () => {
+    it('GET /employees/details/:id should get an employee by Id', async () => {
       const res = await request(server).get('/employees/details/1');
       expect(res.status).toBe(200);
       expect(res.body).toEqual({
